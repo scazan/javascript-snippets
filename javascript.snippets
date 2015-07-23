@@ -1,0 +1,21 @@
+
+# JavaScript
+##############################################################
+snippet classfunc "JavaScript Class Function"
+${1:name}: function $1($2) {
+	$3
+},
+endsnippet
+
+#console.log
+snippet con "console.log"
+console.log('$1');
+endsnippet
+
+snippet ccon "Colored console.log"
+console.log("%c%s", "background-color: #f0f; color: #000", $1);
+endsnippet
+
+snippet stack "Print an error stack" i
+new Error().stack
+endsnippet
