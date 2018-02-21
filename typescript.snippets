@@ -1,0 +1,33 @@
+
+# JavaScript
+##############################################################
+snippet classfunc "JavaScript Class Function"
+private ${1:name} = async ($2) => {
+  $3
+},
+endsnippet
+
+#console.log
+snippet con "console.log"
+console.log('$1);
+endsnippet
+
+snippet ccon "Colored console.log"
+console.log("%c%s", "background-color: #f0f; color: #000", $1);
+endsnippet
+
+snippet stack "Print an error stack" i
+new Error().stack
+endsnippet
+
+snippet import "pompom import"
+import { $1 } from 'pompom/lib/$2'
+endsnippet
+
+snippet scom "Section Comment"
+// ================================================================================
+// $1
+// ================================================================================
+endsnippet
+
+
