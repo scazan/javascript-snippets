@@ -2,9 +2,15 @@
 # JavaScript
 ##############################################################
 snippet classfunc "JavaScript Class Function"
-${1:name}: function $1($2) {
+${1:name}: ($2) => {
 	$3
 },
+endsnippet
+
+snippet => "JavaScript Arrow Function"
+const ${1:name} = ($2) => {
+	$3
+};
 endsnippet
 
 #console.log
@@ -20,6 +26,9 @@ snippet stack "Print an error stack" i
 new Error().stack
 endsnippet
 
+snippet import "import"
+import { $1 } from '$2';
+endsnippet
 
 snippet req "require"
 require("$1");
